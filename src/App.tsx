@@ -78,9 +78,9 @@ function App() {
       </div>
 
       <div className='flex justify-between items-center md:pb-28 pb-0 pt-28 flex-col-reverse md:flex-row gap-10'>
-        <img src='/publish.svg' />
+        <img src='/publish.svg' alt='Published by Hyggex' />
         <div className='flex items-center gap-2'>
-          <img src='/plus.svg' className='w-14' />
+          <img src='/plus.svg' className='w-14' alt='Plus Icon' />
           <h1 className='text-3xl font-medium bg-gradient-to-t from-[#164EC0] to-[#06286E] bg-clip-text text-transparent'>Create Flashcard</h1>
         </div>
       </div>

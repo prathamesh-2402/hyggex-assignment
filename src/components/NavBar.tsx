@@ -8,7 +8,7 @@ const NavBar = () => {
 
   return (
     <div className='flex justify-between items-center overflow-x-hidden'>
-      <img src='/hyggex-logo.svg' className='cursor-pointer' onClick={() => window.location.href = '/'}/>
+      <img src='/hyggex-logo.svg' alt='hyggex logo' className='cursor-pointer' onClick={() => window.location.href = '/'}/>
       <nav className="hidden gap-6 lg:flex items-center">
         <h1
           className={
